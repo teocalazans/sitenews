@@ -183,12 +183,38 @@ a {
  }
 
  .desafio {
-     font-size: 100px;
-     display: flex;
-     justify-content: center;
-     height: 400px;
-     align-items: center;
-     border: 1px solid black;
-     margin: 100px auto;
-     max-width: 980px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+ }
+
+ footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    background: rgb(57,77,255);
+    background: linear-gradient(180deg, rgba(57,77,255,0) 0%, rgba(68,127,255,1) 100%);
+    position: absolute;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+ }
+
+ #footer-logo {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+ }
+
+ footer a:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    transition: 0.3s ease transform;
+ }
+
+ footer h2, p {
+    font-weight: 700;
  }
