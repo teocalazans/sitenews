@@ -55,6 +55,10 @@ header nav ul li a:hover {
     background: rgba(255,255,255,0.15);
 }
 
+#checkbox-menu {
+    display: none;
+}
+
 /* Main */
 
 main {
