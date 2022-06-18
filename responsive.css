@@ -136,4 +136,12 @@
         transform: rotate(45deg);
         top: 8px;
     }
+
+    #form-nome, #form-email, #mensagem {
+        width: 90%;
+    }
+
+    .form-text {
+        text-align: center;
+    }
 }
