@@ -11,6 +11,7 @@ html, body {
     font-family: 'Source Sans Pro', Verdana, Geneva, Tahoma, sans-serif;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    scroll-behavior: smooth;
 }
 
 /* header */
